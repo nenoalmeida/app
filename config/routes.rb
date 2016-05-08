@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :mentors
   get 'welcome/index'
 
   resources :mentors
